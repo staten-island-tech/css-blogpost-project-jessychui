@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(145, 153, 180);
+}
+p {
+  color: aqua;
+  font-size: 17px;
+}
+.main-header {
+  color: blanchedalmond;
+  text-align: center;
+  margin-top: 30px;
+}
