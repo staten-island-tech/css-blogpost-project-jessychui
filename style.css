@@ -1,12 +1,17 @@
 body {
-  background-color: rgb(145, 153, 180);
+  font-family: "Public Sans", sans-serif;
 }
-p {
-  color: aqua;
-  font-size: 17px;
+.parent {
+  border: 5px solid rebeccapurple;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 200px;
 }
-.main-header {
-  color: blanchedalmond;
-  text-align: center;
-  margin-top: 30px;
+.child {
+  border: 3px solid lavender;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
