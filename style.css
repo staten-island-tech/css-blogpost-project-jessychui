@@ -1,17 +1,18 @@
 body {
   font-family: "Public Sans", sans-serif;
-}
-.parent {
-  border: 5px solid rebeccapurple;
-  height: 500px;
-  width: 500px;
-  position: relative;
-  margin-top: 200px;
+  background-color: #dfbbb1;
 }
 .child {
-  border: 3px solid lavender;
+  border: 3px solid #94524a;
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: block;
+  background-color: #fcff6c;
+  color: #111d13;
+  font-size: xx-large;
+}
+.blog-1 {
+  border: 5px solid #538083;
 }
