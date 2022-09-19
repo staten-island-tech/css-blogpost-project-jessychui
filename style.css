@@ -3,16 +3,28 @@ body {
   background-color: #dfbbb1;
 }
 .child {
+  border-radius: 15px;
   border: 3px solid #94524a;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
   background-color: #fcff6c;
+  width: 350px;
+  margin: 30px auto;
+  text-align: center;
   color: #111d13;
   font-size: xx-large;
 }
 .blog-1 {
   border: 5px solid #538083;
+  border-radius: 15px;
+  margin: 30px;
+  text-align: center;
+  
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  
+}
+  
